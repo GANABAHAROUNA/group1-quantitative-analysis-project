@@ -1,0 +1,21 @@
+Stkcd [Stock Code] - Codes released by the Shanghai and Shenzhen Stock Exchanges
+Trddt [Trading Date] - Denoted by YYYY-MM-DD
+Trdsta [Trading Status] - 1=Normal trading, 2=ST, 3＝*ST, 4＝S (equity division reform uncompleted after October 9th, 2006), 5＝SST, 6＝S*ST, 7=G(equity division reform completed before October 9th, 2006)，8=GST，9=G*ST，10=U(equity division reform uncompleted before October 9th, 2006)，11=UST，12=U*ST ，13=N，14=NST，15=N*ST，16=PT
+Opnprc [Daily Opening Price] - A Share: CNY / share, SSE B share: USD / share, SZSE B Share: HKD / share.
+Hiprc [Daily High Price] - A Share: CNY / share, SSE B share: USD / share, SZSE B Share: HKD / share.
+Loprc [Daily Low Price] - A Share: CNY / share, SSE B share: USD / share, SZSE B Share: HKD / share.
+Clsprc [Daily Closing Price] - A Share: CNY / share, SSE B share: USD / share, SZSE B Share: HKD / share.
+Dnshrtrd [Number of Shares Traded] - 0 = No trading
+Dnvaltrd [Value of Shares Traded] - A Share: CNY, SSE B share: USD, SZSE B Share: HKD; 0 = No trading
+Dsmvosd [Market Value of Tradable Shares] - The number of negotiable share multiplied by its closing price. A Share: CNY 1,000, SSE B share: USD 1,000, SZSE B Share: HKD 1,000
+Dsmvtll [Total Market Value] - The total number of share issued multiplied by its closing price. A Share: CNY 1,000, SSE B share: USD 1,000, SZSE B Share: HKD 1,000
+Dretwd [Daily Return With Cash Dividend Reinvested] - Issue price is used as previous closing price of a stock on its first trading day. Please refer to “How Returns Are Calculated”.
+Dretnd [Daily Return Without Cash Dividend] - Issue price is used as previous closing price of a stock on its first trading day. Please refer to “How Returns Are Calculated”.
+Adjprcwd [Comparable Closing Price with Cash Dividend Reinvested] - A Share: CNY / share, SSE B share: USD / share, SZSE B Share: HKD / share. Stock's daily closing price is adjusted for effects due to time interval and change in shares outstanding, and its daily closing price on the first trading day is employed as a base price for the adjustment.
+Adjprcnd [Comparable Closing Price Without Cash Dividend] - A Share: CNY / share, SSE B share: USD / share, SZSE B Share: HKD / share.Stock‘s daily closing price is adjusted for effects due to time interval and change in shares outstanding, and its daily closing price on the first trading day is employed as a base price for the adjustment.
+Markettype [Market Type] - 1=SSE A share market (excluding STAR Market); 2= SSE B share market; 4= SZSE A share market (excluding ChiNext); 8= SZSE B share market; 16= ChiNext; 32= STAR Market., 64= BSE A share market
+Capchgdt [Share Outstanding Change Date] - The latest date when shares outstanding of listed company changed
+Ahshrtrd_D [Daily After-hours Trading Volume] - Daily after-hours trading volume of stocks on the SSE STAR Market.
+Ahvaltrd_D [Daily After-hours Trading Turnover] - Daily after-hours trading turnover of stocks on the SSE STAR Market.
+PreClosePrice [Previous Closing Price (Exchange)] - Previous closing price received by the exchange, which is ex-right closing price of the previous day.
+ChangeRatio [Change Ratio] - Calculation based on Previous Closing Price (Exchange), Daily Closing Price / Previous Closing Price (Exchange) - 1
